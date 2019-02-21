@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BCrypt_Example' do
+  pod 'BCrypt', :path => '../'
+
+  target 'BCrypt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
