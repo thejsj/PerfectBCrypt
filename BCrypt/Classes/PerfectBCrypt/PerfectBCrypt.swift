@@ -123,19 +123,3 @@ open class BCrypt {
     }
     
 }
-
-
-import Foundation
-
-public struct PerfectBCryptAA {
-    public let bva = "Hi"
-}
-
-public class PerfectBCryptBB {
-    public init() {
-        
-    }
-    
-    public let bva = "Hi"
-}
-

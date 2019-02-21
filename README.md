@@ -1,8 +1,7 @@
 # BCrypt
 
-[![CI Status](https://img.shields.io/travis/Alexander Berkunov/BCrypt.svg?style=flat)](https://travis-ci.org/Alexander Berkunov/BCrypt)
 [![Version](https://img.shields.io/cocoapods/v/BCrypt.svg?style=flat)](https://cocoapods.org/pods/BCrypt)
-[![License](https://img.shields.io/cocoapods/l/BCrypt.svg?style=flat)](https://cocoapods.org/pods/BCrypt)
+[![License](https://img.shields.io/cocoapods/l/BCrypt.svg?style=flat)](https://github.com/aberkunov/PerfectBCrypt/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/BCrypt.svg?style=flat)](https://cocoapods.org/pods/BCrypt)
 
 ## Example
