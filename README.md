@@ -25,4 +25,4 @@ Alexander Berkunov, alexander.berkunov@gmail.com
 
 ## License
 
-BCrypt is available under the MIT license. See the LICENSE file for more info.
+BCrypt is available under the MIT license. See the [LICENSE file](https://github.com/aberkunov/PerfectBCrypt/blob/master/LICENSE) for more info.
