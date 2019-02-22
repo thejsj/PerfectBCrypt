@@ -17,6 +17,7 @@
 		1650B214221EF91B0098339C /* bcrypt_pbkdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1650B20A221EF91B0098339C /* bcrypt_pbkdf.c */; };
 		1650B215221EF91B0098339C /* timingsafe_bcmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1650B20B221EF91B0098339C /* timingsafe_bcmp.c */; };
 		1650B216221EF91B0098339C /* blf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1650B20C221EF91B0098339C /* blf.c */; };
+		1650B23522202DFB0098339C /* BCrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64113BD63163664098D9958543033CF3 /* BCrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C128748E5715A7FB63B1D7941802C91 /* BCrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E62B8DB27E2630C99304D80E5C99E03 /* BCrypt-dummy.m */; };
 		21B7A6831113BB7D80367A47C7107CF4 /* Pods-BCrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D2A12DE0F2A3F41854DF1321DE06D4 /* Pods-BCrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E65CF6B3DC97EA87C4C734828889B63 /* Pods-BCrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E4EE284632CF8AE3DD6F37BF552E4 /* Pods-BCrypt_Example-dummy.m */; };
@@ -25,7 +26,6 @@
 		6FBEC9A096B1D82C08D91C22BE8DD91A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		96E825F1330D447FEBFE0F24431708D5 /* Pods-BCrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19C8BFE8EA6FA7491B784100D65250 /* Pods-BCrypt_Tests-dummy.m */; };
 		CB124D0858F6E3D92D6042966DBD58C5 /* Pods-BCrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F9FDC9011ECD93869D2FA431170AF6 /* Pods-BCrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1399485779D93A9569E5CA477E9FFDC /* BCrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64113BD63163664098D9958543033CF3 /* BCrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -305,8 +305,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1650B23522202DFB0098339C /* BCrypt-umbrella.h in Headers */,
 				1650B210221EF91B0098339C /* sha2.h in Headers */,
-				F1399485779D93A9569E5CA477E9FFDC /* BCrypt-umbrella.h in Headers */,
 				1650B211221EF91B0098339C /* portable_endian.h in Headers */,
 				1650B20F221EF91B0098339C /* blf.h in Headers */,
 				1650B212221EF91B0098339C /* pycabcrypt.h in Headers */,

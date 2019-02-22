@@ -31,16 +31,13 @@ This CocoaPod is a Swift version of PerfectBCrypt adopted to iOS.
   s.ios.deployment_target = '10.1'
   s.swift_version = '4.2'
   
-  #s.module_map = 'bcryptc/include/module.modulemap'
-  #s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/bcrypt/include' }
-  #s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/BCrypt/module' }
   s.pod_target_xcconfig = {
       'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/BCrypt/Classes/bcryptc',
       'HEADER_SEARCH_PATHS' => '$(PODS_TARGET_SRCROOT)/BCrypt/Classes/bcryptc/include'
   }
-  #s.preserve_paths = 'bcryptc/include/module.modulemap'
-  
-  s.source_files = 'BCrypt/Classes/**/*'
+  s.source_files = 'BCrypt/Classes/**/*.{h,c,swift}'
+  #s.public_header_files = 'BCrypt/Classes/*.h'
+
   
   # s.resource_bundles = {
   #   'BCrypt' => ['BCrypt/Assets/*.png']
