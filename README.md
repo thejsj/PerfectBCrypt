@@ -21,9 +21,9 @@ do {
     let hashed = try BCrypt.Hash(password, salt: salt)
     print("Hashed result is: \(hashed)")
 }
-    catch {
-        print("An error occured: \(error)")
-    }
+catch {
+    print("An error occured: \(error)")
+}
 ```
 
 ## Requirements
