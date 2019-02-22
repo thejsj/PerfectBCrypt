@@ -15,10 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let password = "1122"
-        let salt = try! BCrypt.Salt()
-        let hashed = try? BCrypt.Hash(password, salt: salt)
-        print(hashed!)
+        let password = "mypassword"
+        do {
+            let salt = try BCrypt.Salt()
+            let hashed = try BCrypt.Hash(password, salt: salt)
+            print("Hashed result is: \(hashed)")
+        }
+        catch {
+            print("An error occured: \(error)")
+        }
     }
 
     override func didReceiveMemoryWarning() {
